@@ -27,6 +27,7 @@ class PostIndex(ListView):
 
         return qs
 
+
 class PostaBusca(PostIndex):
     template_name = 'posts/post_busca.html'
 
@@ -46,6 +47,7 @@ class PostaBusca(PostIndex):
         )
 
         return qs
+
 
 class PostCategoria(PostIndex):
     template_name = 'posts/post_categoria.html'
